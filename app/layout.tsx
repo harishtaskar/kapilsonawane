@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     template: "%s | Kapil Sonalwane",
   },
   description: "Created by Kapil Sonalwane",
+  icons: "/assets/vercel.svg",
 };
 
 type Props = {
@@ -19,7 +20,7 @@ type Props = {
 const RootLayout = ({ children }: Props) => {
   return (
     <html lang="en">
-      <body className="bg-gray-900 ">
+      <body className="bg-gray-950 pb-4">
         <NavBar />
         <ProfilePic />
         {children}

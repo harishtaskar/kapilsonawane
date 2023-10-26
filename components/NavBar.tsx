@@ -5,7 +5,7 @@ import { SocialIcon } from "react-social-icons";
 const NavBar = () => {
   let heigthWidth = 35;
   return (
-    <nav className="bg-white bg-opacity-40 backdrop-blur backgr p-4 sticky top-0 drop-shadow-sm z-10">
+    <nav className="bg-gray-700 bg-opacity-40 backdrop-blur backgr p-4 sticky top-0 drop-shadow-sm z-10">
       <div className="prose prose-xl mx-auto flex flex-col justify-between sm:flex-row gap-4">
         <h1 className="sm:text-5xl text-4xl text-center grid mb-0 font-[900]">
           <Link
