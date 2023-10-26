@@ -12,7 +12,7 @@ const NavBar = () => {
             href={"/"}
             className="text-white no-underline hover:text-gray-100 font-sans font-extrabold"
           >
-            Kapil Sonalwane
+            Kapil Sonawane
           </Link>
         </h1>
         <div
